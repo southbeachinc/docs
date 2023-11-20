@@ -1,3 +1,3 @@
 # docs
-Additional official documentation for Southbeach Modeller
-.sbm files installed with the application
+Additional documentation for Southbeach Modeller
+.sbm (Southbeach visual models) files installed with the application
