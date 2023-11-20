@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<Southbeach version="Southbeach Modeller 4.0.0.0 Alpha 38" compatability="3" name="Southbeach 101" lastpartid="112" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 This model describes the essential ideas behind Southbeach Notation.\par&#xD;&#xA;\par&#xD;&#xA;Visit our help pages for more information: \par&#xD;&#xA;http://www.southbeachinc.com/help/index.html\par&#xD;&#xA;\par&#xD;&#xA;\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="false" showLinks="false" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Produces,Counteracts,Prevents,Opposed,Replaces,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="65" newAgentHeight="48" newAgentFontSize="10" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="128" newActionHeight="64" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors">
+  <Tags>
+    <Group name="type" exclusive="true">
+      <tag name="activity" />
+      <tag name="capability" />
+      <tag name="constraint" />
+      <tag name="data" />
+      <tag name="function" />
+      <tag name="idea" />
+      <tag name="method" />
+      <tag name="object" />
+      <tag name="process" />
+      <tag name="project" />
+      <tag name="product" />
+      <tag name="quality" />
+      <tag name="resource" />
+      <tag name="service" />
+      <tag name="skill" />
+      <tag name="state" />
+      <tag name="step" />
+      <tag name="system" />
+      <tag name="task" />
+      <tag name="technology" />
+      <tag name="tool" />
+      <tag name="trend" />
+      <tag name="work" />
+      <tag name="thing" />
+      <tag name="event" />
+    </Group>
+    <Group name="symbol" exclusive="true">
+      <tag name="?" />
+      <tag name="!" />
+      <tag name="$" />
+      <tag name="*" />
+      <tag name="**" />
+      <tag name="***" />
+      <tag name="+" />
+      <tag name="++" />
+      <tag name="+++" />
+      <tag name=" -" />
+      <tag name="--" />
+      <tag name="---" />
+      <tag name="&lt;" />
+      <tag name="&lt;&lt;" />
+      <tag name="&gt;" />
+      <tag name="&gt;&gt;" />
+      <tag name="=" />
+      <tag name="^" />
+      <tag name="%" />
+      <tag name="X" />
+      <tag name="Y" />
+      <tag name="N" />
+      <tag name="Q" />
+    </Group>
+    <Group name="number" exclusive="true">
+      <tag name="1" />
+      <tag name="2" />
+      <tag name="3" />
+      <tag name="4" />
+      <tag name="5" />
+      <tag name="6" />
+      <tag name="7" />
+      <tag name="8" />
+      <tag name="9" />
+      <tag name="0" />
+    </Group>
+    <Group name="perspective" exclusive="true">
+      <tag name="pro" />
+      <tag name="con" />
+      <tag name="silverbullet" />
+    </Group>
+  </Tags>
+  <Layouts default="none" continuous="false">
+    <layout name="Force" />
+    <layout name="Tree" />
+  </Layouts>
+  <box dashed="false" filled="true" x="16" y="304" width="696" height="464" presentationorder="" />
+  <comment nid="0" label="Everything is useful OR harmful" fontsize="10" commentWidth="150" commentHeight="30.18229" x="24" y="72" presentationorder="" fixing="free" />
+  <agent nid="1" pid="2" label="useful" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="72" y="168" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="14" />
+  <agent nid="5" pid="6" label="harmful" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="152" y="168" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="20" />
+  <comment nid="9" label="Everything is useful AND harmful" fontsize="10" commentWidth="150" commentHeight="30.18229" x="272" y="72" presentationorder="" fixing="free" />
+  <agent nid="10" pid="11" label="useful" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="296" y="200" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="28" />
+  <agent nid="12" pid="13" label="useful in this way" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="416" y="168" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="40">
+    <Tags>
+      <Group name="perspective">
+        <tag name="pro" />
+      </Group>
+    </Tags>
+  </agent>
+  <agent nid="26" pid="27" label="useful" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="664" y="168" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="31">
+    <Tags>
+      <Group name="perspective">
+        <tag name="silverbullet" />
+      </Group>
+    </Tags>
+  </agent>
+  <agent nid="28" pid="29" label="harmful effect" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="664" y="248" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="26" />
+  <agent nid="30" pid="31" label="harmful" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="552" y="200" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="29" />
+  <comment nid="32" label="Harmful things can also have useful side effects" fontsize="10" commentWidth="150" commentHeight="30.18229" x="528" y="72" presentationorder="" fixing="free" />
+  <agent nid="48" pid="49" label="harmful in another way" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="416" y="240" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="36">
+    <Tags>
+      <Group name="perspective">
+        <tag name="con" />
+      </Group>
+    </Tags>
+  </agent>
+  <agent nid="55" pid="56" label="a" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="312" y="568" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="35" />
+  <agent nid="57" pid="58" label="b" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="424" y="512" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="37" />
+  <agent nid="59" pid="60" label="c" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="424" y="608" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="39" />
+  <comment nid="83" label="Models are developed from one or more perspectives" fontsize="10" commentWidth="150" commentHeight="45.2734337" x="32" y="328" presentationorder="" fixing="free" />
+  <comment nid="84" label="Model something as useful if you wish to retain or increase it in the final solution." fontsize="10" commentWidth="186" commentHeight="52.364563" x="480" y="488" presentationorder="" fixing="free" />
+  <comment nid="85" label="Model something as harmful if you wish to reduce or eradicate it from the final solution." fontsize="10" commentWidth="186" commentHeight="52" x="480" y="576" presentationorder="" fixing="free" />
+  <action nid="86" pid="87" label="reduce c" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="424" y="704" width="88" height="56" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="17" />
+  <action nid="91" pid="92" label="intensify b so that c is irrelevant" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="472" y="432" width="88" height="56" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="27" />
+  <action nid="96" pid="97" label="replace a in oder to obtain b without c" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="264" y="472" width="88" height="56" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="23" />
+  <comment nid="101" label="Models are extended with solutions and interventions (blue)" fontsize="10" commentWidth="150" commentHeight="45.2734337" x="32" y="416" presentationorder="" fixing="free" />
+  <action nid="103" pid="104" label="prevent a from producing c" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="296" y="680" width="88" height="56" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="19" />
+  <balloon nid="8" label="Right mouse to change agent properties" fontsize="10" x="48" y="600" anchor="55" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="634.1823" centerX="127" centerY="617.0911" left="48" right="206" sizeWidth="150" sizeHeight="30.18229" top="600" presentationorder="" fixing="free" />
+  <balloon nid="82" label="Right mouse to change effect and effect properties" fontsize="10" x="360" y="328" anchor="51" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="377.273438" centerX="439" centerY="352.636719" left="360" right="518" sizeWidth="150" sizeHeight="45.2734337" top="328" presentationorder="" fixing="free" />
+  <text label="Visit the Toolbox panel - Palette tab, and the Insert menu" fontsize="10" x="16" y="24" presentationorder="" partid="112" />
+  <link nid="14" from="11" to="13" mid="15" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="329" point1Y="191.2" point2X="383" point2Y="176.8" />
+  <link nid="18" from="11" to="49" mid="19" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="329" point1Y="211" point2X="383" point2Y="229" />
+  <link nid="20" from="31" to="27" mid="21" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="585" point1Y="190.571426" point2X="631" point2Y="177.428574" />
+  <link nid="22" from="31" to="29" mid="23" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="585" point1Y="214.142853" point2X="631" point2Y="233.857147" />
+  <link nid="51" from="56" to="58" mid="52" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="345" point1Y="551.5" point2X="391" point2Y="528.5" />
+  <link nid="53" from="56" to="60" mid="54" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="345" point1Y="579.7857" point2X="391" point2Y="596.2143" />
+  <link nid="89" from="87" to="60" mid="90" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="424" point1Y="675.5" point2X="424" point2Y="632.5" />
+  <link nid="94" from="92" to="58" mid="95" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="454.9" point1Y="460.5" point2X="438.7" point2Y="487.499939" />
+  <link nid="99" from="97" to="56" mid="100" kind="replaces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="278.25" point1Y="500.5" point2X="299.75" point2Y="543.5" />
+  <link nid="106" from="104" to="54" mid="107" kind="prevents" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="318.3043" point1Y="651.5" point2X="368" point2Y="587.9998" />
+  <EmbeddedModel name="Effects" lastpartid="71" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="true" showLinks="true" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Creates,Counteracts,Prevents,Opposed,Contributes to,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="65" newAgentHeight="48" newAgentFontSize="10" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="128" newActionHeight="64" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors">
+    <Tags>
+      <Group name="type" exclusive="true">
+        <tag name="activity" />
+        <tag name="capability" />
+        <tag name="constraint" />
+        <tag name="data" />
+        <tag name="function" />
+        <tag name="idea" />
+        <tag name="method" />
+        <tag name="object" />
+        <tag name="process" />
+        <tag name="project" />
+        <tag name="product" />
+        <tag name="quality" />
+        <tag name="resource" />
+        <tag name="service" />
+        <tag name="skill" />
+        <tag name="state" />
+        <tag name="step" />
+        <tag name="system" />
+        <tag name="task" />
+        <tag name="technology" />
+        <tag name="tool" />
+        <tag name="trend" />
+        <tag name="work" />
+        <tag name="thing" />
+        <tag name="event" />
+      </Group>
+      <Group name="symbol" exclusive="true">
+        <tag name="?" />
+        <tag name="!" />
+        <tag name="$" />
+        <tag name="*" />
+        <tag name="**" />
+        <tag name="***" />
+        <tag name="+" />
+        <tag name="++" />
+        <tag name="+++" />
+        <tag name=" -" />
+        <tag name="--" />
+        <tag name="---" />
+        <tag name="&lt;" />
+        <tag name="&lt;&lt;" />
+        <tag name="&gt;" />
+        <tag name="&gt;&gt;" />
+        <tag name="=" />
+        <tag name="^" />
+        <tag name="%" />
+        <tag name="X" />
+        <tag name="Y" />
+        <tag name="N" />
+        <tag name="Q" />
+      </Group>
+      <Group name="number" exclusive="true">
+        <tag name="1" />
+        <tag name="2" />
+        <tag name="3" />
+        <tag name="4" />
+        <tag name="5" />
+        <tag name="6" />
+        <tag name="7" />
+        <tag name="8" />
+        <tag name="9" />
+        <tag name="0" />
+      </Group>
+      <Group name="perspective" exclusive="false">
+        <tag name="pro" />
+        <tag name="con" />
+      </Group>
+    </Tags>
+    <Layouts default="none" continuous="false">
+      <layout name="Force" />
+      <layout name="Tree" />
+    </Layouts>
+    <box dashed="false" filled="true" x="272" y="144" width="560" height="368" presentationorder="" />
+    <comment nid="0" label="Many of the effects have a corresponding counter effect" fontsize="10" commentWidth="202" commentHeight="30.18229" x="272" y="80" presentationorder="" fixing="free" />
+    <agent nid="6" pid="7" label="work" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="328" y="256" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="43" />
+    <agent nid="12" pid="13" label="wealth" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="464" y="200" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="52" />
+    <agent nid="14" pid="15" label="play" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="464" y="320" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="49" />
+    <agent nid="28" pid="29" label="burning fossil fuels" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="656" y="264" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="48" />
+    <agent nid="30" pid="31" label="cost of energy" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="768" y="328" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="56" />
+    <agent nid="32" pid="33" label="global warming" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="768" y="208" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="58" />
+    <comment nid="37" label="The counter effect to 'produces' is called 'counteracts'" fontsize="10" commentWidth="202" commentHeight="30.18229" x="504" y="80" presentationorder="" fixing="free" />
+    <comment nid="39" label="Southbeach provides different effects (arrows)" fontsize="10" commentWidth="150" commentHeight="30.18229" x="16" y="80" presentationorder="" fixing="free" />
+    <agent nid="42" pid="43" label="wealth" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="192" y="264" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="58" />
+    <agent nid="49" pid="50" label="the young" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="64" y="344" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="50" />
+    <agent nid="55" pid="56" label="the old" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="192" y="344" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="62" />
+    <agent nid="57" pid="58" label="work" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="64" y="264" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="48" />
+    <agent nid="68" pid="69" label="release of CO2" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="192" y="184" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="66" />
+    <agent nid="70" pid="71" label="burning fossil fuels" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="64" y="184.000015" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="50" />
+    <balloon nid="34" label="Right mouse to change to counter efffect" fontsize="10" x="424" y="240" anchor="16" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="274.182281" centerX="503" centerY="257.091156" left="424" right="582" sizeWidth="150" sizeHeight="30.18229" top="240" presentationorder="" fixing="free" />
+    <balloon nid="36" label="The line is red (harmful) because useful play is being counteracted by useful work" fontsize="10" x="344" y="376" anchor="16" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="448" centerX="424" centerY="412" left="344" right="504" sizeWidth="152" sizeHeight="68" top="376" presentationorder="" fixing="free" />
+    <balloon nid="38" label="The line is green (useful) because even though burning fossil fuels is regarded as harmful, it counteracts the cost of energy production" fontsize="10" x="544" y="344" anchor="20" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="464" centerX="620" centerY="404" left="544" right="696" sizeWidth="144" sizeHeight="116" top="344" presentationorder="" fixing="free" />
+    <balloon nid="59" label="Right mouse to change effect (arrow) type" fontsize="10" x="48" y="400" anchor="53" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="472" centerX="92" centerY="436" left="48" right="136" sizeWidth="80" sizeHeight="68" top="400" presentationorder="" fixing="free" />
+    <text label="Etc ...." fontsize="10" x="168" y="384" presentationorder="" partid="-1" />
+    <text label="Drag from the edge of objects to the canvas or to another object to create effects" fontsize="10" x="16" y="32" presentationorder="" partid="112" />
+    <link nid="1" from="7" to="13" mid="2" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="361" point1Y="242.411758" point2X="431" point2Y="213.588242" />
+    <link nid="16" from="7" to="15" mid="17" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="361" point1Y="271.529419" point2X="431" point2Y="304.470581" />
+    <link nid="18" from="29" to="33" mid="19" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="689" point1Y="247.5" point2X="735" point2Y="224.5" />
+    <link nid="20" from="29" to="31" mid="21" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="689" point1Y="282.857117" point2X="735" point2Y="309.142822" />
+    <link nid="45" from="58" to="43" mid="46" kind="creates" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="97" point1Y="264" point2X="159" point2Y="264" />
+    <link nid="53" from="50" to="56" mid="54" kind="becomes" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="97" point1Y="343.999939" point2X="159" point2Y="343.999939" />
+    <link nid="66" from="71" to="69" mid="67" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="97" point1Y="183.999985" point2X="159" point2Y="183.999985" />
+  </EmbeddedModel>
+  <EmbeddedModel name="Tags" lastpartid="75" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 Tags let you extend the Southbeach semantics for your application\par&#xD;&#xA;\par&#xD;&#xA;Tags are more than visual clues, they can be referred to in creativity rules and interactive reports, pulling out information from a model according to the relationships and tag values\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="false" showLinks="true" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Produces,Counteracts,Prevents,Opposed,Contributes to,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="97" newAgentHeight="48" newAgentFontSize="10" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="128" newActionHeight="64" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors">
+    <Tags>
+      <Group name="type" exclusive="true">
+        <tag name="activity" />
+        <tag name="capability" />
+        <tag name="constraint" />
+        <tag name="data" />
+        <tag name="function" />
+        <tag name="idea" />
+        <tag name="method" />
+        <tag name="object" />
+        <tag name="process" />
+        <tag name="project" />
+        <tag name="product" />
+        <tag name="quality" />
+        <tag name="resource" />
+        <tag name="service" />
+        <tag name="skill" />
+        <tag name="state" />
+        <tag name="step" />
+        <tag name="system" />
+        <tag name="task" />
+        <tag name="technology" />
+        <tag name="tool" />
+        <tag name="trend" />
+        <tag name="work" />
+        <tag name="thing" />
+        <tag name="event" />
+      </Group>
+      <Group name="symbol" exclusive="true">
+        <tag name="?" />
+        <tag name="!" />
+        <tag name="$" />
+        <tag name="*" />
+        <tag name="**" />
+        <tag name="***" />
+        <tag name="+" />
+        <tag name="++" />
+        <tag name="+++" />
+        <tag name=" -" />
+        <tag name="--" />
+        <tag name="---" />
+        <tag name="&lt;" />
+        <tag name="&lt;&lt;" />
+        <tag name="&gt;" />
+        <tag name="&gt;&gt;" />
+        <tag name="=" />
+        <tag name="^" />
+        <tag name="%" />
+        <tag name="X" />
+        <tag name="Y" />
+        <tag name="N" />
+        <tag name="Q" />
+      </Group>
+      <Group name="number" exclusive="true">
+        <tag name="1" />
+        <tag name="2" />
+        <tag name="3" />
+        <tag name="4" />
+        <tag name="5" />
+        <tag name="6" />
+        <tag name="7" />
+        <tag name="8" />
+        <tag name="9" />
+        <tag name="0" />
+      </Group>
+      <Group name="environment" exclusive="false">
+        <tag name="temperature" />
+        <tag name="energy" />
+        <tag name="sealevel" />
+      </Group>
+    </Tags>
+    <Layouts default="none" continuous="false">
+      <layout name="Force" />
+      <layout name="Tree" />
+    </Layouts>
+    <box dashed="false" filled="true" x="216" y="312" width="544" height="432" presentationorder="" />
+    <comment nid="0" label="Southbeach provides many useful visual variations of both agents, and effects, and for many models these may be all you need" fontsize="10" commentWidth="150" commentHeight="90.54687" x="32" y="72" presentationorder="" fixing="free" />
+    <agent nid="1" pid="2" label="insufficient" kind="useful" agentAmount="insufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="288" y="104" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="5" />
+    <agent nid="3" pid="4" label="goal" kind="useful" agentAmount="sufficient" description="" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="288" y="168" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="14" />
+    <agent nid="5" pid="6" label="potential" kind="useful" agentAmount="potential" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="400" y="104" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="13" />
+    <agent nid="7" pid="8" label="historical" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="true" emphasis="false" fixing="free" whiteboardHighlight="false" x="400" y="168" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="22" />
+    <agent nid="25" pid="26" label="acceptable" kind="harmful" agentAmount="insufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="576" y="104" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="17" />
+    <agent nid="27" pid="28" label="risk" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="576" y="168" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="24" />
+    <agent nid="29" pid="30" label="focus" kind="harmful" agentAmount="sufficient" description="" focus="true" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="688" y="104" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="27" />
+    <agent nid="33" pid="34" label="neutral" kind="neutral" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="688" y="168" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="37" />
+    <comment nid="35" label="Where you need further differentiation among model elements, you add tags and/or place agents on a grid" fontsize="10" commentWidth="150" commentHeight="75.45572" x="32" y="192" presentationorder="" fixing="free" />
+    <comment nid="38" label="Type, symbol and numeric tag categories are available in every model, and can be extended with additional tag groups and tag values" fontsize="10" commentWidth="150" commentHeight="105.638016" x="32" y="296" presentationorder="" fixing="free" />
+    <comment nid="39" label="Southbeach is supplied with with extensive tag library (Toolbox panel)" fontsize="10" commentWidth="150" commentHeight="45.2734337" x="32" y="432" presentationorder="" fixing="free" />
+    <agent nid="44" pid="45" label="melting of&#xD;&#xA; polar ice" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="448" y="392" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="36">
+      <Tags>
+        <Group name="environment">
+          <tag name="sealevel" />
+        </Group>
+        <Group name="type">
+          <tag name="process" />
+        </Group>
+      </Tags>
+    </agent>
+    <comment nid="46" label="Tags can be inclusive or exclusive, and agents can have any number of tags applied to them" fontsize="10" commentWidth="474" commentHeight="36" x="240" y="656" presentationorder="" fixing="free" />
+    <agent nid="47" pid="48" label="burning of &#xD;&#xA;fossil fuels" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="288" y="496" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="20">
+      <Tags>
+        <Group name="environment">
+          <tag name="energy" />
+        </Group>
+      </Tags>
+    </agent>
+    <agent nid="51" pid="52" label="global warming" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="288" y="392" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="37">
+      <Tags>
+        <Group name="type">
+          <tag name="trend" />
+        </Group>
+        <Group name="environment">
+          <tag name="temperature" />
+        </Group>
+      </Tags>
+    </agent>
+    <agent nid="53" pid="54" label="cheap energy" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="448" y="496" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="17">
+      <Tags>
+        <Group name="environment">
+          <tag name="energy" />
+        </Group>
+      </Tags>
+    </agent>
+    <comment nid="61" label="Tags from the library, or user-defined, can be added to a model at any time, and then used to tag individual elements" fontsize="10" commentWidth="150" commentHeight="75.45572" x="32" y="504" presentationorder="" fixing="free" />
+    <agent nid="70" pid="71" label="Green energy" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="288" y="592" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="5" />
+    <balloon nid="57" label="Right mouse to change properties" fontsize="10" x="280" y="232" anchor="3" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="288" centerX="328" centerY="260" left="280" right="376" sizeWidth="88" sizeHeight="52" top="232" presentationorder="" fixing="free" />
+    <balloon nid="58" label="Hover mouse to see tooltip, which will display the tags" fontsize="10" x="520" y="416" anchor="44" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="465.273438" centerX="584" centerY="440.636719" left="520" right="648" sizeWidth="120" sizeHeight="45.2734337" top="416" presentationorder="" fixing="free" />
+    <balloon nid="62" label="Right mouse to change tags individually" fontsize="10" x="528" y="528" anchor="53" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="562.1823" centerX="607" centerY="545.0911" left="528" right="686" sizeWidth="150" sizeHeight="30.18229" top="528" presentationorder="" fixing="free" />
+    <balloon nid="63" label="Or drag tags from the model tags panel, or tags library" fontsize="10" x="528" y="576" anchor="53" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="625.273438" centerX="607" centerY="600.6367" left="528" right="686" sizeWidth="150" sizeHeight="45.2734337" top="576" presentationorder="" fixing="free" />
+    <balloon nid="69" label="Right mouse to change properties" fontsize="10" x="480" y="224" anchor="67" unachoredOffsetWidth="-20" unachoredOffsetHeight="-74" basewidth="15" bottom="280" centerX="528" centerY="252" left="480" right="576" sizeWidth="88" sizeHeight="52" top="224" presentationorder="" fixing="free" />
+    <text label="And others ..." fontsize="10" x="648" y="208" presentationorder="" partid="-1" />
+    <text label="Visit the Toolbox panel - Tags tab for an extensive library of tag groups and tags" fontsize="10" x="24" y="24" presentationorder="" partid="74" />
+    <link nid="42" from="52" to="45" mid="43" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="337" point1Y="392" point2X="399" point2Y="392" />
+    <link nid="49" from="48" to="52" mid="50" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="288" point1Y="471.5" point2X="288" point2Y="416.5" />
+    <link nid="55" from="48" to="54" mid="56" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="337" point1Y="496" point2X="399" point2Y="496" />
+    <link nid="67" from="8" to="28" mid="68" kind="creates" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="true" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="449" point1Y="168" point2X="527" point2Y="168" />
+    <link nid="72" from="71" to="48" mid="73" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="288" point1Y="567.5" point2X="288" point2Y="520.5" />
+  </EmbeddedModel>
+  <EmbeddedModel name="Grids" lastpartid="48" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 Grids let you emulate many typical consulting, business or engineering diagrams\par&#xD;&#xA;\par&#xD;&#xA;Agents inherit tags from their placement on the grid\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="false" showLinks="true" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Produces,Counteracts,Prevents,Opposed,Contributes to,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="98.25" newAgentHeight="52" newAgentFontSize="10" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="88" newActionHeight="56" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors" rows="4" cols="0" boxColumns="2" rowTitle="Perspective" colTitle="Perspective" gridwidth="792" gridheight="674.072937" gridStyle="labelledBoxes" gridShowSeparation="false" gridShading="1" showGridInModel="true">
+    <rowname label="strength" />
+    <rowname label="weakness" />
+    <rowname label="opportunity" />
+    <rowname label="threat" />
+    <Tags>
+      <Group name="type" exclusive="true">
+        <tag name="activity" />
+        <tag name="capability" />
+        <tag name="constraint" />
+        <tag name="data" />
+        <tag name="function" />
+        <tag name="idea" />
+        <tag name="method" />
+        <tag name="object" />
+        <tag name="process" />
+        <tag name="project" />
+        <tag name="product" />
+        <tag name="quality" />
+        <tag name="resource" />
+        <tag name="service" />
+        <tag name="skill" />
+        <tag name="state" />
+        <tag name="step" />
+        <tag name="system" />
+        <tag name="task" />
+        <tag name="technology" />
+        <tag name="tool" />
+        <tag name="trend" />
+        <tag name="work" />
+        <tag name="thing" />
+        <tag name="event" />
+      </Group>
+      <Group name="symbol" exclusive="true">
+        <tag name="?" />
+        <tag name="!" />
+        <tag name="$" />
+        <tag name="*" />
+        <tag name="**" />
+        <tag name="***" />
+        <tag name="+" />
+        <tag name="++" />
+        <tag name="+++" />
+        <tag name=" -" />
+        <tag name="--" />
+        <tag name="---" />
+        <tag name="&lt;" />
+        <tag name="&lt;&lt;" />
+        <tag name="&gt;" />
+        <tag name="&gt;&gt;" />
+        <tag name="=" />
+        <tag name="^" />
+        <tag name="%" />
+        <tag name="X" />
+        <tag name="Y" />
+        <tag name="N" />
+        <tag name="Q" />
+      </Group>
+      <Group name="number" exclusive="true">
+        <tag name="1" />
+        <tag name="2" />
+        <tag name="3" />
+        <tag name="4" />
+        <tag name="5" />
+        <tag name="6" />
+        <tag name="7" />
+        <tag name="8" />
+        <tag name="9" />
+        <tag name="0" />
+      </Group>
+      <Group name="priority" exclusive="true">
+        <tag name="P1" />
+        <tag name="P2" />
+        <tag name="P3" />
+        <tag name="P4" />
+        <tag name="P5" />
+      </Group>
+    </Tags>
+    <Layouts default="none" continuous="false">
+      <layout name="Force" />
+      <layout name="Tree" />
+    </Layouts>
+    <agent nid="0" pid="1" label="j" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="520" y="256" width="98.25" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="perspective: weakness" secondAttribute="" fontsize="10" presentationorder="" showtags="true" changecount="39">
+      <Tags>
+        <Group name="priority">
+          <tag name="P1" />
+        </Group>
+      </Tags>
+    </agent>
+    <agent nid="2" pid="3" label="a" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="120" y="168" width="98.25" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="perspective: strength" secondAttribute="" fontsize="10" presentationorder="" showtags="true" changecount="38" />
+    <agent nid="12" pid="13" label="k" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="640" y="176" width="98.25" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="perspective: weakness" secondAttribute="" fontsize="10" presentationorder="" showtags="true" changecount="37">
+      <Tags>
+        <Group name="priority">
+          <tag name="P2" />
+        </Group>
+      </Tags>
+    </agent>
+    <agent nid="20" pid="21" label="b" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="256" y="256" width="98.25" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="perspective: strength" secondAttribute="" fontsize="10" presentationorder="" showtags="true" changecount="23" />
+    <agent nid="30" pid="31" label="h" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="520" y="440" width="98.25" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="perspective: threat" secondAttribute="" fontsize="10" presentationorder="" showtags="true" changecount="36">
+      <Tags>
+        <Group name="priority">
+          <tag name="P3" />
+        </Group>
+      </Tags>
+    </agent>
+    <agent nid="32" pid="33" label="c" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="256" y="440" width="98.25" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="perspective: opportunity" secondAttribute="" fontsize="10" presentationorder="" showtags="true" changecount="16" />
+    <comment nid="39" label="As well as giving agents tags, they can also be placed on grids" fontsize="10" commentWidth="150" commentHeight="45.2734337" x="16" y="72" presentationorder="" fixing="free" />
+    <comment nid="40" label="Agents inherit tags from their position on the grid" fontsize="10" commentWidth="150" commentHeight="30.18229" x="72" y="264" presentationorder="" fixing="free" />
+    <comment nid="43" label="This kind of grid is called 'labelled boxes' and has been used to create a SWOT chart" fontsize="10" commentWidth="178" commentHeight="45.2734337" x="208" y="72" presentationorder="" fixing="free" />
+    <comment nid="46" label="Agents are 'separated' from each other by their placement on the grid. Each axis is given a separation type.  This SWOT chart is separated by 'Perspective'" fontsize="10" commentWidth="150" commentHeight="105.638016" x="24" y="520" presentationorder="" fixing="free" />
+    <comment nid="47" label="There are many other separations available. &#xD;&#xA;&#xD;&#xA;It is also possible to create pool, lane and window pane grids" fontsize="10" commentWidth="150" commentHeight="108" x="208" y="520" presentationorder="" fixing="free" />
+    <balloon nid="41" label="Hover mouse for tooltip to see tags" fontsize="10" x="328" y="288" anchor="20" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="337.273438" centerX="372" centerY="312.636719" left="328" right="416" sizeWidth="80" sizeHeight="45.2734337" top="288" presentationorder="" fixing="free" />
+    <balloon nid="42" label="Hover mouse for tooltip to see tags" fontsize="10" x="584" y="296" anchor="0" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="345.273438" centerX="628" centerY="320.636719" left="584" right="672" sizeWidth="80" sizeHeight="45.2734337" top="296" presentationorder="" fixing="free" />
+    <balloon nid="45" label="Right mouse on canvas for grid properties" fontsize="10" x="424" y="504" anchor="47" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="568" centerX="472" centerY="536" left="424" right="520" sizeWidth="88" sizeHeight="60" top="504" presentationorder="" fixing="free" />
+    <text label="Visit the Toolbox Panel - Grids tab, for an extensive library of grids/charts/swimlanes/pools and boxes" fontsize="10" x="16" y="40" presentationorder="" partid="48" />
+    <link nid="22" from="3" to="21" mid="23" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="160.954544" point1Y="194.5" point2X="215.045456" point2Y="229.5" />
+    <link nid="25" from="21" to="1" mid="26" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="305.625" point1Y="256" point2X="470.375" point2Y="256" />
+    <link nid="28" from="1" to="13" mid="29" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="559.75" point1Y="229.5" point2X="600.25" point2Y="202.5" />
+    <link nid="34" from="21" to="33" mid="35" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="256" point1Y="282.5" point2X="256" point2Y="413.5" />
+    <link nid="37" from="31" to="33" mid="38" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="470.375" point1Y="440" point2X="305.625" point2Y="440" />
+  </EmbeddedModel>
+  <EmbeddedModel name="Separations" lastpartid="22" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 Separations let you distingiush agents on different canvas tabs\par&#xD;&#xA;\par&#xD;&#xA;For example, you may wish to generate a report over all models, treating agents with the same name, but in different models, differently in the report\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="false" showLinks="true" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Produces,Counteracts,Prevents,Opposed,Contributes to,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="97" newAgentHeight="48" newAgentFontSize="10" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="128" newActionHeight="64" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="Parts" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors" rows="1" cols="3" boxColumns="2" rowTitle="" colTitle="Aspect" gridwidth="792" gridheight="674.072937" gridStyle="twoDimensional" gridShowSeparation="false" gridShading="1" showGridInModel="true">
+    <rowname label="" />
+    <colname label="cause" />
+    <colname label="response" />
+    <colname label="implication" />
+    <Tags>
+      <Group name="type" exclusive="true">
+        <tag name="activity" />
+        <tag name="capability" />
+        <tag name="constraint" />
+        <tag name="data" />
+        <tag name="function" />
+        <tag name="idea" />
+        <tag name="method" />
+        <tag name="object" />
+        <tag name="process" />
+        <tag name="project" />
+        <tag name="product" />
+        <tag name="quality" />
+        <tag name="resource" />
+        <tag name="service" />
+        <tag name="skill" />
+        <tag name="state" />
+        <tag name="step" />
+        <tag name="system" />
+        <tag name="task" />
+        <tag name="technology" />
+        <tag name="tool" />
+        <tag name="trend" />
+        <tag name="work" />
+        <tag name="thing" />
+        <tag name="event" />
+      </Group>
+      <Group name="symbol" exclusive="true">
+        <tag name="?" />
+        <tag name="!" />
+        <tag name="$" />
+        <tag name="*" />
+        <tag name="**" />
+        <tag name="***" />
+        <tag name="+" />
+        <tag name="++" />
+        <tag name="+++" />
+        <tag name=" -" />
+        <tag name="--" />
+        <tag name="---" />
+        <tag name="&lt;" />
+        <tag name="&lt;&lt;" />
+        <tag name="&gt;" />
+        <tag name="&gt;&gt;" />
+        <tag name="=" />
+        <tag name="^" />
+        <tag name="%" />
+        <tag name="X" />
+        <tag name="Y" />
+        <tag name="N" />
+        <tag name="Q" />
+      </Group>
+      <Group name="number" exclusive="true">
+        <tag name="1" />
+        <tag name="2" />
+        <tag name="3" />
+        <tag name="4" />
+        <tag name="5" />
+        <tag name="6" />
+        <tag name="7" />
+        <tag name="8" />
+        <tag name="9" />
+        <tag name="0" />
+      </Group>
+    </Tags>
+    <Layouts default="none" continuous="false">
+      <layout name="Force" />
+      <layout name="Tree" />
+    </Layouts>
+    <comment nid="0" label="Every model can be 'separated' from every other model in a set" fontsize="10" commentWidth="150" commentHeight="45.2734337" x="16" y="48" presentationorder="" fixing="free" />
+    <agent nid="3" pid="4" label="my process" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="112" y="336" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="" secondAttribute="aspect: cause" fontsize="10" presentationorder="" showtags="true" changecount="35">
+      <Tags>
+        <Group name="type">
+          <tag name="process" />
+        </Group>
+      </Tags>
+    </agent>
+    <agent nid="5" pid="6" label="error &#xD;&#xA;condition" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="352.25" y="222" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="" secondAttribute="aspect: response" fontsize="10" presentationorder="" showtags="true" changecount="33">
+      <Tags>
+        <Group name="type">
+          <tag name="event" />
+        </Group>
+      </Tags>
+    </agent>
+    <comment nid="15" label="When separated, every agent on a canvas inherits an additional tag with the value of the model name (the text of the model tab) &#xD;&#xA;" fontsize="10" commentWidth="150" commentHeight="105.638008" x="16" y="136" presentationorder="" fixing="free" />
+    <agent nid="16" pid="17" label="risk" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="608" y="222" width="97" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" firstAttribute="" secondAttribute="aspect: implication" fontsize="10" presentationorder="" showtags="true" changecount="23" />
+    <comment nid="22" label="When using separations, model tabs should be named appropriately, e.g.&#xD;&#xA;&#xD;&#xA;By parts: Part A, Part B&#xD;&#xA;By role: CEO, CFO, CIO&#xD;&#xA;By time: Present, Future&#xD;&#xA;Etc." fontsize="10" commentWidth="202" commentHeight="124" x="544" y="40" presentationorder="" fixing="free" />
+    <balloon nid="2" label="Right mouse over the model tab above to set a Separation. &#xD;&#xA;&#xD;&#xA;The model name (tab text) becomes the value of a tag for every agent on the canvas." fontsize="10" x="248" y="56" anchor="-1" unachoredOffsetWidth="-4" unachoredOffsetHeight="-42" basewidth="15" bottom="150.546875" centerX="360" centerY="103.273438" left="248" right="472" sizeWidth="216" sizeHeight="90.54687" top="56" presentationorder="" fixing="free" />
+    <balloon nid="13" label="Hover mouse to see tags, grid and separation " fontsize="10" x="384" y="272" anchor="5" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="306.182281" centerX="463" centerY="289.091156" left="384" right="542" sizeWidth="150" sizeHeight="30.18229" top="272" presentationorder="" fixing="free" />
+    <balloon nid="14" label="Hover mouse to see tags, grid and separation " fontsize="10" x="136" y="392" anchor="3" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="426.182281" centerX="215" centerY="409.091156" left="136" right="294" sizeWidth="150" sizeHeight="30.18229" top="392" presentationorder="" fixing="free" />
+    <balloon nid="20" label="Hover mouse to see tags, grid and separation " fontsize="10" x="640" y="272" anchor="16" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="306.182281" centerX="719" centerY="289.091156" left="640" right="798" sizeWidth="150" sizeHeight="30.18229" top="272" presentationorder="" fixing="free" />
+    <link nid="8" from="4" to="6" mid="9" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="161" point1Y="312.7492" point2X="303.25" point2Y="245.250778" />
+    <link nid="18" from="6" to="17" mid="19" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="401.25" point1Y="222" point2X="559" point2Y="222" />
+  </EmbeddedModel>
+  <EmbeddedModel name="Creativity" lastpartid="141" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 Visit our help pages for more information: \par&#xD;&#xA;http://www.southbeachinc.com/help/index.html\par&#xD;&#xA;\par&#xD;&#xA;\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="false" showLinks="true" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Produces,Counteracts,Prevents,Opposed,Contributes to,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="65" newAgentHeight="48" newAgentFontSize="10" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="128" newActionHeight="64" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors">
+    <Tags>
+      <Group name="type" exclusive="true">
+        <tag name="activity" />
+        <tag name="capability" />
+        <tag name="constraint" />
+        <tag name="data" />
+        <tag name="function" />
+        <tag name="idea" />
+        <tag name="method" />
+        <tag name="object" />
+        <tag name="process" />
+        <tag name="project" />
+        <tag name="product" />
+        <tag name="quality" />
+        <tag name="resource" />
+        <tag name="service" />
+        <tag name="skill" />
+        <tag name="state" />
+        <tag name="step" />
+        <tag name="system" />
+        <tag name="task" />
+        <tag name="technology" />
+        <tag name="tool" />
+        <tag name="trend" />
+        <tag name="work" />
+        <tag name="thing" />
+        <tag name="event" />
+      </Group>
+      <Group name="symbol" exclusive="true">
+        <tag name="?" />
+        <tag name="!" />
+        <tag name="$" />
+        <tag name="*" />
+        <tag name="**" />
+        <tag name="***" />
+        <tag name="+" />
+        <tag name="++" />
+        <tag name="+++" />
+        <tag name=" -" />
+        <tag name="--" />
+        <tag name="---" />
+        <tag name="&lt;" />
+        <tag name="&lt;&lt;" />
+        <tag name="&gt;" />
+        <tag name="&gt;&gt;" />
+        <tag name="=" />
+        <tag name="^" />
+        <tag name="%" />
+        <tag name="X" />
+        <tag name="Y" />
+        <tag name="N" />
+        <tag name="Q" />
+      </Group>
+      <Group name="number" exclusive="true">
+        <tag name="1" />
+        <tag name="2" />
+        <tag name="3" />
+        <tag name="4" />
+        <tag name="5" />
+        <tag name="6" />
+        <tag name="7" />
+        <tag name="8" />
+        <tag name="9" />
+        <tag name="0" />
+      </Group>
+      <Group name="perspective" exclusive="false">
+        <tag name="pro" />
+        <tag name="con" />
+      </Group>
+    </Tags>
+    <Layouts default="none" continuous="false">
+      <layout name="Force" />
+      <layout name="Tree" />
+    </Layouts>
+    <box dashed="false" filled="true" x="528" y="56" width="456" height="752" presentationorder="" />
+    <comment nid="0" label="Southbeach Modeller includes a user-programmable rules engine.&#xD;&#xA;&#xD;&#xA;By writing rules, you will be able to generate ideas, direction and reports from any model&#xD;&#xA;" fontsize="10" commentWidth="162" commentHeight="142.911438" x="24" y="64" presentationorder="&lt;none&gt;" fixing="free" />
+    <choice nid="11" pid="12" label="The rules engine is used in two ways" kind="useful" agentAmount="sufficient" description="" focus="true" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="280" y="151.999985" width="130" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="&lt;none&gt;" showtags="true" changecount="46" />
+    <agent nid="13" pid="14" label="an interactive mode called MyCreativity" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="168" y="280" width="130" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="&lt;none&gt;" showtags="true" changecount="48" />
+    <agent nid="15" pid="16" label="a report generation mode called MyReports" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="376" y="280" width="130" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="&lt;none&gt;" showtags="true" changecount="46" />
+    <action nid="25" pid="26" label="For documentation see menu Help - Contents" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="272" y="648" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="&lt;none&gt;" showtags="true" changecount="67" />
+    <action nid="34" pid="35" label="A model set (.sbm file) can contain any number of model tabs, creativity tabs and reporting tabs" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="272" y="536" width="173" height="89.15057" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="&lt;none&gt;" showtags="true" changecount="62" />
+    <action nid="41" pid="42" label="Creativity rules can be held in the model (View - Creativity) or in a rules library (View - Toolbox) " kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="168" y="400" width="164" height="93.36328" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="41" />
+    <action nid="43" pid="44" label="Report templates can be held in the model (View - Reports) or in a rules library (MyReports dir)" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="376" y="400" width="164" height="92" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="43" />
+    <agent nid="64" pid="65" label="work" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="656" y="176" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="38" />
+    <agent nid="66" pid="67" label="income" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="760" y="120" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="40" />
+    <agent nid="68" pid="69" label="effort" kind="harmful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="760" y="216" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="39" />
+    <comment nid="72" label="produces(useful, useful) &quot;Find a way to increase {to} from {from}&quot;&#xD;&#xA;&#xD;&#xA;produces(useful, harmful) &quot;Find a way to reduce {to} arising from {from}&quot;&#xD;&#xA;&#xD;&#xA;produces(&amp;a=useful, &amp;b=useful) produces (&amp;a, &amp;c=harmful) &quot;Find a way to obtain {&amp;b} without {&amp;a}, thereby avoiding {&amp;c}&quot;&#xD;&#xA;&#xD;&#xA;counteracts(harmful, useful) &quot;Find a way to prevent {from} limiting {to}&quot;" fontsize="10" commentWidth="394" commentHeight="164" x="544" y="440" presentationorder="" fixing="free" />
+    <agent nid="99" pid="100" label="retirement" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="872" y="120" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="23" />
+    <agent nid="103" pid="104" label="leisure" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="872" y="216" width="65" height="48" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="18" />
+    <action nid="110" pid="111" label="Press F2 in the Creativity panel to show/hide/edit the rules that generate the output" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="760" y="728" width="136" height="96" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="23" />
+    <action nid="112" pid="113" label="Right mouse in the Creativity rules or output area for more options" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="912" y="728" width="128" height="96" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="16" />
+    <action nid="114" pid="115" label="Right mouse on the Creativity panel header to change extent, e.g. from laser to widest" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="608" y="728" width="128" height="96" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="18" />
+    <balloon nid="39" label="To add a new creativity or report tab, click the [+] tab in the relevant panel" fontsize="10" x="32" y="608" anchor="34" unachoredOffsetWidth="-30" unachoredOffsetHeight="-30" basewidth="15" bottom="657.273438" centerX="111" centerY="632.6367" left="32" right="190" sizeWidth="150" sizeHeight="45.2734337" top="608" presentationorder="&lt;none&gt;" fixing="free" />
+    <balloon nid="70" label="Click on agents or effects and watch the output in the Creativity panel (menu View - Creativity)" fontsize="10" x="544" y="64" anchor="60" unachoredOffsetWidth="140" unachoredOffsetHeight="118" basewidth="15" bottom="128.364578" centerX="623" centerY="96.18229" left="544" right="702" sizeWidth="150" sizeHeight="60.36458" top="64" presentationorder="&lt;none&gt;" fixing="free" />
+    <balloon nid="125" label="The output is not hard-coded, Southbeach provides a rich rules language, allowing for the development of interactive creativity in any specific model, or across all models" fontsize="10" x="544" y="232" anchor="68" unachoredOffsetWidth="140" unachoredOffsetHeight="118" basewidth="15" bottom="356.729156" centerX="623" centerY="294.364563" left="544" right="702" sizeWidth="150" sizeHeight="120.729156" top="232" presentationorder="&lt;none&gt;" fixing="free" />
+    <text label="Example of creativity rules (menu View - Creativity)" fontsize="10" x="544" y="408" presentationorder="" partid="-1" />
+    <text label="Start here" fontsize="10" x="248" y="88" presentationorder="" partid="-1" />
+    <text label="Tips ..." fontsize="10" x="544" y="656" presentationorder="" partid="-1" />
+    <text label="Visit the Toolbox panel, Creativity tab for an extensive library of MyCreativity rulesets" fontsize="10" x="16" y="24" presentationorder="" partid="141" />
+    <text label="Visit the Creativity panel to edit model-specific rules, F2 in panel" fontsize="10" x="536" y="24" presentationorder="" partid="141" />
+    <link nid="18" from="12" to="14" mid="19" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="260.171326" point1Y="174.661346" point2X="196.4375" point2Y="247.5" />
+    <link nid="21" from="12" to="16" mid="22" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="297.764252" point1Y="175.685669" point2X="351.625" point2Y="247.5" />
+    <link nid="52" from="44" to="35" mid="53" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="340.441162" point1Y="446.500031" point2X="306.46933" point2Y="490.924744" />
+    <link nid="55" from="42" to="35" mid="56" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="204.080078" point1Y="447.181641" point2X="237.53067" point2Y="490.9247" />
+    <link nid="60" from="65" to="67" mid="61" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="689" point1Y="158.230774" point2X="727" point2Y="137.769226" />
+    <link nid="62" from="65" to="69" mid="63" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="689" point1Y="188.6923" point2X="727" point2Y="203.3077" />
+    <link nid="94" from="14" to="42" mid="95" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="168" point1Y="312.5" point2X="168" point2Y="352.818359" />
+    <link nid="97" from="16" to="44" mid="98" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="376" point1Y="312.5" point2X="376" point2Y="353.5" />
+    <link nid="101" from="67" to="100" mid="102" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="793" point1Y="120" point2X="839" point2Y="120" />
+    <link nid="105" from="69" to="104" mid="106" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="793" point1Y="216" point2X="839" point2Y="216" />
+    <link nid="108" from="100" to="104" mid="109" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="872" point1Y="144.5" point2X="872" point2Y="191.5" />
+    <link nid="117" from="26" to="115" mid="118" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="336.5" point1Y="663.3571" point2X="543.5" point2Y="712.6429" />
+    <link nid="120" from="115" to="111" mid="121" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="672.5" point1Y="728" point2X="691.5" point2Y="728" />
+    <link nid="123" from="111" to="113" mid="124" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="828.5" point1Y="728" point2X="847.5" point2Y="728" />
+    <link nid="130" from="35" to="26" mid="131" kind="creates" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="272" point1Y="581.0753" point2X="272" point2Y="615.5" />
+  </EmbeddedModel>
+  <EmbeddedModel name="Reports" lastpartid="90" nextposx="80" nextposy="80" zoom="1" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 Visit our help pages for more information: \par&#xD;&#xA;http://www.southbeachinc.com/help/index.html\par&#xD;&#xA;\par&#xD;&#xA;\par&#xD;&#xA;}&#xD;&#xA;" modelAgent="agent" defaultAgent="agent" modelUsefulness="useful" modelGoal="false" modelSufficiency="sufficient" modelFocus="false" modelHistorical="false" modelEmphasis="false" modelPerspective="" showAnnotations="false" showLabels="false" showLinks="true" tagshowsetting="1" url="" modelfilename="" modelRelatedDocument="" newKnowledgeColor="1" effectbuttons="Produces,Counteracts,Prevents,Opposed,Creates,Detracts from" newAgentUsefulness="useful" newAgentGoal="false" newAgentFocus="false" newAgentHistorical="false" newAgentEmphasis="false" newAgentSufficiency="sufficient" newAgentPerspective="" newAgentUrl="" newAgentModel="" newAgentDocument="" newAgentWidth="130" newAgentHeight="64" newAgentFontSize="-1" newChoiceWidth="130" newChoiceHeight="64" newChoiceFontSize="-1" newIssueWidth="128" newIssueHeight="64" newIssueFontSize="-1" newEventWidth="64" newEventHeight="64" newEventFontSize="-1" newActionWidth="128" newActionHeight="64" newActionFontSize="-1" newKnowledgeWidth="112" newKnowledgeHeight="128" newKnowledgeFontSize="-1" newLinkKind="produces" newLinkStyle="straight" newLinkRequired="false" emphasisStrength="3" newLinkEmphasis="false" newLinkSufficiency="sufficient" newLinkNot="false" newLinkDelay="false" newLinkInevitable="false" newLinkQuestionable="false" separation="" graduatedFill="true" agentPenWidth="1" effectPenWidth="1" gridstyle="none" visualstyle="default" visualcolor="colors">
+    <Tags>
+      <Group name="type" exclusive="true">
+        <tag name="activity" />
+        <tag name="capability" />
+        <tag name="constraint" />
+        <tag name="data" />
+        <tag name="function" />
+        <tag name="idea" />
+        <tag name="method" />
+        <tag name="object" />
+        <tag name="process" />
+        <tag name="project" />
+        <tag name="product" />
+        <tag name="quality" />
+        <tag name="resource" />
+        <tag name="service" />
+        <tag name="skill" />
+        <tag name="state" />
+        <tag name="step" />
+        <tag name="system" />
+        <tag name="task" />
+        <tag name="technology" />
+        <tag name="tool" />
+        <tag name="trend" />
+        <tag name="work" />
+        <tag name="thing" />
+        <tag name="event" />
+      </Group>
+      <Group name="symbol" exclusive="true">
+        <tag name="?" />
+        <tag name="!" />
+        <tag name="$" />
+        <tag name="*" />
+        <tag name="**" />
+        <tag name="***" />
+        <tag name="+" />
+        <tag name="++" />
+        <tag name="+++" />
+        <tag name=" -" />
+        <tag name="--" />
+        <tag name="---" />
+        <tag name="&lt;" />
+        <tag name="&lt;&lt;" />
+        <tag name="&gt;" />
+        <tag name="&gt;&gt;" />
+        <tag name="=" />
+        <tag name="^" />
+        <tag name="%" />
+        <tag name="X" />
+        <tag name="Y" />
+        <tag name="N" />
+        <tag name="Q" />
+      </Group>
+      <Group name="number" exclusive="true">
+        <tag name="1" />
+        <tag name="2" />
+        <tag name="3" />
+        <tag name="4" />
+        <tag name="5" />
+        <tag name="6" />
+        <tag name="7" />
+        <tag name="8" />
+        <tag name="9" />
+        <tag name="0" />
+      </Group>
+    </Tags>
+    <Layouts default="none" continuous="false">
+      <layout name="Force" />
+      <layout name="Tree" />
+    </Layouts>
+    <box dashed="false" filled="true" x="24" y="128" width="520" height="808" presentationorder="" />
+    <comment nid="0" label="Just as Southbeach Modeller lets you keep notes with each model and each element of each model, you can add Reports to your model" fontsize="10" commentWidth="498" commentHeight="44" x="24" y="56" presentationorder="" fixing="free" />
+    <agent nid="40" pid="41" label="Antelopes" kind="useful" agentAmount="sufficient" description="" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="112" y="432" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="1" showtags="true" changecount="70" />
+    <agent nid="42" pid="43" label="Cheetahs" kind="useful" agentAmount="sufficient" description="" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="432" y="432" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="1" showtags="true" changecount="70" />
+    <agent nid="44" pid="45" label="Drivers of cheetah population" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="432" y="328" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="2" showtags="true" changecount="71" />
+    <agent nid="46" pid="47" label="Drivers of antelope population" kind="useful" agentAmount="sufficient" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="112" y="320" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="2" showtags="true" changecount="69" />
+    <agent nid="48" pid="49" label="Poaching of antelopes" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="104" y="551.999939" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="3" showtags="true" changecount="69" />
+    <agent nid="50" pid="51" label="Spread of disease in antelope population" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="112" y="208" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="3" showtags="true" changecount="73" />
+    <agent nid="52" pid="53" label=" Habitat reduction" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="true" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="264" y="584" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="3" showtags="true" changecount="73" />
+    <agent nid="54" pid="55" label="Spread of disease in cheetah population" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="432" y="208" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="3" showtags="true" changecount="71" />
+    <agent nid="56" pid="57" label="Creation of more game reserves" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="264" y="776" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="4" showtags="true" changecount="70" />
+    <agent nid="58" pid="59" label=" Grasslands" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="264" y="688" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="4" showtags="true" changecount="73" />
+    <agent nid="60" pid="61" label="Poaching of cheetahs" kind="harmful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="440" y="559.999939" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="3" showtags="true" changecount="69" />
+    <agent nid="62" pid="63" label="Measures to prevent poaching" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="264" y="856" width="128" height="64" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="3" showtags="true" changecount="69" />
+    <agent nid="64" pid="65" label="Causes of habitat reduction" kind="harmful" agentAmount="potential" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="264" y="504" width="116" height="36" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="64" />
+    <agent nid="66" pid="67" label="Causes of poaching" kind="harmful" agentAmount="potential" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="440" y="664" width="80" height="56" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="60" />
+    <agent nid="68" pid="69" label="Causes of poaching" kind="harmful" agentAmount="potential" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="96" y="664" width="80" height="72" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="60" />
+    <agent nid="70" pid="71" label="Causes of disease" kind="harmful" agentAmount="potential" description="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20\par&#xD;&#xA;}&#xD;&#xA;" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="272" y="208" width="88" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="" showtags="true" changecount="62" />
+    <comment nid="73" label="A Report is a script you write in text, just like a consulting report. Unlike a normal report, it can call upon the creativity engine included in Southbeach Modeller, and pull information from the model into the body of the report, replacing general words with specific words from any part of the model. Sophisticated pattern queries are possible. " fontsize="10" commentWidth="370" commentHeight="100" x="560" y="56" presentationorder="" fixing="free" />
+    <comment nid="74" label="Our goals are to increase both:&#xD;&#xA;[goal : numeric]&#xD;&#xA;the main risk being {risk}.&#xD;&#xA;&#xD;&#xA;There are many factors limiting their population, including:&#xD;&#xA;[harmful : dashed]&#xD;&#xA;&#xD;&#xA;Areas of uncertainty lie in:&#xD;&#xA;[potential+harmful : U]&#xD;&#xA;&#xD;&#xA;In the first instance, our strategy focusses on ways to prevent the primary impacts, including:&#xD;&#xA;[decreases(!goal, goal) &quot;Prevent or reduce: {from}&quot; : S]&#xD;&#xA;&#xD;&#xA;Central to an understanding of the ecosystem are the relationships:&#xD;&#xA;[*(goal, goal) &quot;{from} {effect} ({effectlabel}) {to}&quot; : E]&#xD;&#xA;&#xD;&#xA;We intend to develop actions plans to strength the following:&#xD;&#xA;&#xD;&#xA;[useful(,) &quot;Work to secure {from} in order to {effect} {to}&quot; : A]" fontsize="10" commentWidth="362" commentHeight="396" x="568" y="224" presentationorder="" fixing="free" />
+    <comment nid="82" label="A model set (.sbm file) can contain any number of models, creativity rule sets and reports, for different purposes" fontsize="10" commentWidth="146" commentHeight="84" x="568" y="744" presentationorder="" fixing="free" />
+    <comment nid="84" label="To see the Report output based on this model and this report template, menu View - Report" fontsize="10" commentWidth="150" commentHeight="60.36458" x="568" y="648" presentationorder="" fixing="free" />
+    <comment nid="85" label="Press F5 at any time on the canvas, or in the report panel, to refresh the report if the model is changed. " fontsize="10" commentWidth="170" commentHeight="68" x="760" y="648" presentationorder="" fixing="free" />
+    <comment nid="86" label="Press F2 in the report panel to show/hide/edit the template of the report" fontsize="10" commentWidth="170" commentHeight="44" x="760" y="744" presentationorder="" fixing="free" />
+    <action nid="88" pid="89" label="For documentation see menu Help - Contents" kind="useful" agentAmount="sufficient" description="" focus="false" goal="false" historical="false" emphasis="false" fixing="free" whiteboardHighlight="false" x="848" y="840" width="180" height="52" agentUrl="" agentModelFileName="" agentRelatedDocument="" agentPerspective="" fontsize="10" presentationorder="&lt;none&gt;" showtags="true" changecount="123" />
+    <text label="Sample model &quot;Antelopes and Cheetahs&quot;" fontsize="10" x="144" y="144" presentationorder="" partid="-1" />
+    <text label="Example of a Report (menu View - Reports)" fontsize="10" x="568" y="192" presentationorder="" partid="-1" />
+    <text label="Reports can be stored in simple .txt files, or in tabs within the model (Reports panel, F2 to edit template report)" fontsize="10" x="16" y="16" presentationorder="" partid="90" />
+    <link nid="2" from="43" to="41" mid="3" kind="counteracts" style="curve" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="predation" tofontsize="10" pointsCount="4" point1X="367.5" point1Y="450.369232" point2X="303.831573" point2Y="468.266449" point3X="240.164856" point3Y="468.260071" point4X="176.5" point4Y="450.3501" />
+    <link nid="4" from="45" to="43" mid="5" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="432" point1Y="360.5" point2X="432" point2Y="399.5" />
+    <link nid="6" from="47" to="41" mid="7" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="112" point1Y="352.5" point2X="112" point2Y="399.5" />
+    <link nid="8" from="49" to="41" mid="9" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="106.166664" point1Y="519.5" point2X="109.833336" point2Y="464.5" />
+    <link nid="10" from="51" to="47" mid="11" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="112" point1Y="240.5" point2X="112" point2Y="287.5" />
+    <link nid="12" from="55" to="45" mid="13" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="432" point1Y="240.5" point2X="432" point2Y="295.5" />
+    <link nid="14" from="53" to="43" mid="15" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="299.921082" point1Y="551.4999" point2X="396.078918" point2Y="464.5" />
+    <link nid="16" from="59" to="53" mid="17" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="264" point1Y="655.4999" point2X="264" point2Y="616.4999" />
+    <link nid="18" from="57" to="59" mid="19" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="264" point1Y="743.4999" point2X="264" point2Y="720.4999" />
+    <link nid="20" from="41" to="43" mid="21" kind="produces" style="curve" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="source of food for" tofontsize="10" pointsCount="4" point1X="176.5" point1Y="413.64978" point2X="240.164856" point2Y="395.739716" point3X="303.831573" point3Y="395.733337" point4X="367.5" point4Y="413.630646" />
+    <link nid="22" from="61" to="43" mid="23" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="437.96875" point1Y="527.5" point2X="434.03125" point2Y="464.5" />
+    <link nid="24" from="53" to="41" mid="25" kind="counteracts" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="231.5" point1Y="551.4999" point2X="144.5" point2Y="464.5" />
+    <link nid="26" from="63" to="67" mid="27" kind="counteracts" style="curve" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="4" point1X="328.5" point1Y="860.031067" point2X="391.5099" point2Y="864.0453" point3X="451.611816" point3Y="829.1424" point4X="442.111023" point4Y="692.9999" />
+    <link nid="28" from="63" to="69" mid="29" kind="counteracts" style="curve" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="4" point1X="199.5" point1Y="852.928467" point2X="96.43492" point2Y="848.149536" point3X="87.54962" point3Y="804.2421" point4X="93.68658" point4Y="700.9999" />
+    <link nid="30" from="65" to="53" mid="31" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="264" point1Y="523" point2X="264" point2Y="551.4999" />
+    <link nid="32" from="67" to="61" mid="33" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="440" point1Y="634.9999" point2X="440" point2Y="592.5" />
+    <link nid="34" from="69" to="49" mid="35" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="98.64286" point1Y="626.9999" point2X="101.678566" point2Y="584.5" />
+    <link nid="36" from="71" to="51" mid="37" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="227" point1Y="208" point2X="176.5" point2Y="208" />
+    <link nid="38" from="71" to="55" mid="39" kind="produces" style="straight" emphasis="false" sufficiency="sufficient" necessary="false" delay="false" accelerate="false" inevitable="false" doesnot="false" questionable="false" whiteboardHighlight="false" description="" tolabel="" tofontsize="10" pointsCount="2" point1X="317" point1Y="208" point2X="367.5" point2Y="208" />
+  </EmbeddedModel>
+  <Scripts>
+    <script name="creativity" type="creativity" flag="false" content="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 produces(useful, useful) &quot;Find a way to increase \{to\} from \{from\}&quot;\par&#xD;&#xA;\par&#xD;&#xA;produces(useful, harmful) &quot;Find a way to reduce \{to\} arising from \{from\}&quot;\par&#xD;&#xA;\par&#xD;&#xA;produces(&amp;a=useful, &amp;b=useful) produces (&amp;a, &amp;c=harmful) &quot;Find a way to obtain \{&amp;b\} without \{&amp;a\}, thereby avoiding \{&amp;c\}&quot;\par&#xD;&#xA;\par&#xD;&#xA;counteracts(harmful, useful) &quot;Find a way to prevent \{from\} limiting \{to\}&quot;\par&#xD;&#xA;\par&#xD;&#xA;}&#xD;&#xA;">
+      <scriptoutput modelname="Grids" generated="" />
+      <scriptoutput modelname="Creativity" generated="" />
+      <scriptoutput modelname="Southbeach 101" generated="" />
+      <scriptoutput modelname="Effects" generated="" />
+      <scriptoutput modelname="Reports" generated="1. Find a way to prevent [Spread of disease in antelope population] limiting [Drivers of antelope population]&#xD;&#xA;2. Find a way to increase [Antelopes] from [Drivers of antelope population]&#xD;&#xA;3. Find a way to increase [Cheetahs] from [Drivers of cheetah population]&#xD;&#xA;4. Find a way to prevent [Spread of disease in cheetah population] limiting [Drivers of cheetah population]&#xD;&#xA;5. Find a way to prevent [Habitat reduction] limiting [Cheetahs]&#xD;&#xA;6. Find a way to increase [Grasslands] from [Creation of more game reserves]&#xD;&#xA;7. Find a way to prevent [Habitat reduction] limiting [Antelopes]&#xD;&#xA;8. Find a way to increase [Cheetahs] from [Antelopes]&#xD;&#xA;9. Find a way to prevent [Poaching of cheetahs] limiting [Cheetahs]&#xD;&#xA;10. Find a way to prevent [Poaching of antelopes] limiting [Antelopes]" />
+      <scriptoutput modelname="Separations" generated="Find a way to reduce error  condition arising from my process" />
+      <scriptoutput modelname="NEW in v4" generated="1. Find a way to increase [Generate infinite creativity rulesets on demand] from [New 'cues' panel and MyCues engine]&#xD;&#xA;2. Find a way to increase [New 'cues' panel and MyCues engine] from [3000 application-specific tags/tag groups]&#xD;&#xA;3. Find a way to increase [3000 application-specific tags/tag groups] from [100s of carefully curated ideation scripts and rulesets]&#xD;&#xA;4. Find a way to increase [100s of carefully curated ideation scripts and rulesets] from [over 200 topic-specific 'lists' of reusable elements]&#xD;&#xA;5. Find a way to increase [over 200 topic-specific 'lists' of reusable elements] from [over 100 pre-configured grids/charts/swimlane templates]&#xD;&#xA;6. Find a way to increase [over 100 pre-configured grids/charts/swimlane templates] from [Major upgrade, new modules, features, enhancements]&#xD;&#xA;7. Find a way to increase [Tags, Lists, Creativity, Cues and Assist tools are now searchable] from [Major upgrade, new modules, features, enhancements]&#xD;&#xA;8. Find a way to increase [Search model via substring, exact string or notation pattern] from [Tags, Lists, Creativity, Cues and Assist tools are now searchable]&#xD;&#xA;9. Find a way to increase [over 100 pre-configured grids/charts/swimlane templates] from [Quick grids replaced by new grids panel/tree, user customizable]&#xD;&#xA;10. Find a way to increase [over 200 topic-specific 'lists' of reusable elements] from [New 'lists' panel/tree and MyLists directory]&#xD;&#xA;11. Find a way to increase [Drill down into 'lists' (.txt files) as with models/sub-models/elements] from [over 200 topic-specific 'lists' of reusable elements]&#xD;&#xA;12. Find a way to increase [Create agents from list] from [Drill down into 'lists' (.txt files) as with models/sub-models/elements]&#xD;&#xA;13. Find a way to increase [100s of carefully curated ideation scripts and rulesets] from [Expanded and updated rulesets]&#xD;&#xA;14. Find a way to increase [Copy rulesets from library to 'model' creativity] from [100s of carefully curated ideation scripts and rulesets]&#xD;&#xA;15. Find a way to increase [3000 application-specific tags/tag groups] from [Extended tags library and functionality]&#xD;&#xA;16. Find a way to increase [Create grid 'boxes' from any tag group] from [3000 application-specific tags/tag groups]&#xD;&#xA;17. Find a way to increase [Create grid 'columns' from any tag group] from [Create grid 'boxes' from any tag group]&#xD;&#xA;18. Find a way to increase [Create grid 'rows' from any tag group] from [Create grid 'columns' from any tag group]&#xD;&#xA;19. Find a way to increase [Expanded and updated research/web/patent sources] from [New 'cues' panel and MyCues engine]" />
+    </script>
+  </Scripts>
+  <Scripts>
+    <script name="report" type="report" flag="false" content="{\rtf1\ansi\ansicpg1252\deff0\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}&#xD;&#xA;\viewkind4\uc1\pard\f0\fs20 Our goals are to increase both:\par&#xD;&#xA;[goal : numeric]\par&#xD;&#xA;the main risk being \{risk\}.\par&#xD;&#xA;\par&#xD;&#xA;There are many factors limiting their population, including:\par&#xD;&#xA;[harmful : dashed]\par&#xD;&#xA;\par&#xD;&#xA;Areas of uncertainty lie in:\par&#xD;&#xA;[potential+harmful : U]\par&#xD;&#xA;\par&#xD;&#xA;In the first instance, our strategy focusses on ways to prevent the primary impacts, including:\par&#xD;&#xA;[decreases(!goal, goal) &quot;Prevent or reduce: \{from\}&quot; : S]\par&#xD;&#xA;\par&#xD;&#xA;Central to an understanding of the ecosystem are the relationships:\par&#xD;&#xA;[*(goal, goal) &quot;\{from\} \{effect\} (\{effectlabel\}) \{to\}&quot; : E]\par&#xD;&#xA;\par&#xD;&#xA;We intend to develop actions plans to strength the following:\par&#xD;&#xA;\par&#xD;&#xA;[useful(,) &quot;Work to secure \{from\} in order to \{effect\} \{to\}&quot; : A]\par&#xD;&#xA;}&#xD;&#xA;">
+      <scriptoutput modelname="Creativity" generated="" />
+      <scriptoutput modelname="Reports" generated="" />
+    </script>
+  </Scripts>
+</Southbeach>
